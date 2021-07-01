@@ -1,0 +1,26 @@
+.login-form {
+    width: 480px;
+    margin:10% auto;
+    background-color: #000000;
+    opacity: 90%;
+    border: 3px solid #000;
+    box-shadow: darkgray 10px 10px 25px 5px;
+}
+
+.login-form-forgot {
+    float: right;
+}
+
+.ant-col-rtl .login-form-forgot {
+    float: left;
+}
+
+.login-form-button {
+    max-width: 100px;
+    width: 100%;
+    margin: 20px;
+}
+
+.input-box {
+    max-width: 390px;
+}

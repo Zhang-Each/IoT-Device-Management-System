@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.server.mapper.DeviceMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.server.model.Device">
+        <result column="id" javaType="int" property="id" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+        <result column="description" jdbcType="VARCHAR" property="description" />
+        <result column="userid" jdbcType="VARCHAR" property="userid" />
+        <result column="kind" javaType="int" property="kind" />
+        <result column="activate" jdbcType="VARCHAR" property="activate" />
+    </resultMap>
+    <!--查询用户信息-->
+    <select id="getDevice" resultType="com.example.server.model.Device">
+        select *
+        from `device`
+        where `name` = #{name};
+    </select>
+
+    <select id="getDeviceKindStatistic" resultType="map">
+         select `kind` as `type`, COUNT(all `name`) as `value`
+         from `device`
+         group by `kind`;
+    </select>
+
+    <select id="getDeviceKindStatisticForUser" resultType="map">
+         select `kind` as `type`, COUNT(all `name`) as `value`
+         from `device`
+         where `userid` = #{id}
+         group by `kind`;
+    </select>
+
+    <select id="getAllDevice" resultType="map">
+        select COUNT(all name) as result
+        from `device`
+        where `userid` = #{id};
+    </select>
+
+    <select id="getAllDeviceList" resultType="com.example.server.model.Device">
+        select *
+        from `device`
+        where `userid` = #{id};
+    </select>
+
+    <update id="changeDeviceConfig" parameterType="map">
+        update `device`
+        set `description` = '${form.description}', `kind` = ${form.kind}
+        where `name` = '${form.device}';
+    </update>
+
+    <insert id="createNewDevice" parameterType="map">
+        insert into `device`
+        values(null, '${form.device}', '${form.description}', '${form.id}', '${form.kind}', '');
+    </insert>
+
+</mapper>

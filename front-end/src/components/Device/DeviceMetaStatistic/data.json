@@ -1,0 +1,347 @@
+[
+  {
+    "name": "device0001",
+    "stamp": "1617586090511",
+    "value": 100
+  },
+  {
+    "name": "device0001",
+    "stamp": "1617678160617",
+    "value": 51
+  },
+  {
+    "name": "device0001",
+    "stamp": "1617678433064",
+    "value": 87
+  },
+  {
+    "name": "device0001",
+    "stamp": "1617678442065",
+    "value": 68
+  },
+  {
+    "name": "device0001",
+    "stamp": "1617678443072",
+    "value": 29
+  },
+  {
+    "name": "device0001",
+    "stamp": "1617678549238",
+    "value": 71
+  },
+  {
+    "name": "device0001",
+    "stamp": "1617678558254",
+    "value": 74
+  },
+  {
+    "name": "device0001",
+    "stamp": "1617678560262",
+    "value": 79
+  },
+  {
+    "name": "device0001",
+    "stamp": "1617678562278",
+    "value": 54
+  },
+  {
+    "name": "device0001",
+    "stamp": "1617678563281",
+    "value": 41
+  },
+  {
+    "name": "device0001",
+    "stamp": "1617678570289",
+    "value": 13
+  },
+  {
+    "name": "device0001",
+    "stamp": "1617678578303",
+    "value": 27
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241561803",
+    "value": 37
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241561807",
+    "value": 47
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241561808",
+    "value": 98
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241564824",
+    "value": 42
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241564826",
+    "value": 99
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241568831",
+    "value": 57
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241574842",
+    "value": 25
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241574844",
+    "value": 82
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241579855",
+    "value": 2
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241579858",
+    "value": 41
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241583862",
+    "value": 65
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241591879",
+    "value": 56
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241593895",
+    "value": 36
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241595911",
+    "value": 82
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241596927",
+    "value": 5
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241602944",
+    "value": 87
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241603957",
+    "value": 90
+  },
+  {
+    "name": "device0001",
+    "stamp": "1619241610972",
+    "value": 54
+  },
+  {
+    "name": "device0002",
+    "stamp": "1617678425294",
+    "value": 58
+  },
+  {
+    "name": "device0002",
+    "stamp": "1617678430303",
+    "value": 94
+  },
+  {
+    "name": "device0002",
+    "stamp": "1617678439315",
+    "value": 62
+  },
+  {
+    "name": "device0002",
+    "stamp": "1617678447325",
+    "value": 49
+  },
+  {
+    "name": "device0002",
+    "stamp": "1617678545527",
+    "value": 17
+  },
+  {
+    "name": "device0002",
+    "stamp": "1617678553530",
+    "value": 30
+  },
+  {
+    "name": "device0002",
+    "stamp": "1617678560546",
+    "value": 10
+  },
+  {
+    "name": "device0002",
+    "stamp": "1617678564547",
+    "value": 61
+  },
+  {
+    "name": "device0002",
+    "stamp": "1617678565561",
+    "value": 29
+  },
+  {
+    "name": "device0002",
+    "stamp": "1617678570571",
+    "value": 23
+  },
+  {
+    "name": "device0002",
+    "stamp": "1617678579582",
+    "value": 72
+  },
+  {
+    "name": "device0002",
+    "stamp": "1619241560801",
+    "value": 61
+  },
+  {
+    "name": "device0002",
+    "stamp": "1619241563809",
+    "value": 7
+  },
+  {
+    "name": "device0002",
+    "stamp": "1619241565822",
+    "value": 90
+  },
+  {
+    "name": "device0002",
+    "stamp": "1619241565824",
+    "value": 48
+  },
+  {
+    "name": "device0002",
+    "stamp": "1619241565826",
+    "value": 13
+  },
+  {
+    "name": "device0002",
+    "stamp": "1619241573835",
+    "value": 62
+  },
+  {
+    "name": "device0002",
+    "stamp": "1619241581843",
+    "value": 31
+  },
+  {
+    "name": "device0002",
+    "stamp": "1619241582847",
+    "value": 19
+  },
+  {
+    "name": "device0002",
+    "stamp": "1619241585852",
+    "value": 67
+  },
+  {
+    "name": "device0002",
+    "stamp": "1619241585856",
+    "value": 91
+  },
+  {
+    "name": "device0002",
+    "stamp": "1619241593864",
+    "value": 46
+  },
+  {
+    "name": "device0002",
+    "stamp": "1619241601877",
+    "value": 69
+  },
+  {
+    "name": "device0002",
+    "stamp": "1619241609887",
+    "value": 14
+  },
+  {
+    "name": "device0002",
+    "stamp": "1619241613904",
+    "value": 43
+  },
+  {
+    "name": "device0003",
+    "stamp": "1619241555837",
+    "value": 29
+  },
+  {
+    "name": "device0003",
+    "stamp": "1619241559967",
+    "value": 78
+  },
+  {
+    "name": "device0003",
+    "stamp": "1619241561977",
+    "value": 48
+  },
+  {
+    "name": "device0003",
+    "stamp": "1619241561978",
+    "value": 86
+  },
+  {
+    "name": "device0003",
+    "stamp": "1619241566982",
+    "value": 48
+  },
+  {
+    "name": "device0003",
+    "stamp": "1619241573000",
+    "value": 89
+  },
+  {
+    "name": "device0003",
+    "stamp": "1619241581015",
+    "value": 85
+  },
+  {
+    "name": "device0003",
+    "stamp": "1619241585022",
+    "value": 27
+  },
+  {
+    "name": "device0003",
+    "stamp": "1619241591032",
+    "value": 27
+  },
+  {
+    "name": "device0003",
+    "stamp": "1619241595035",
+    "value": 87
+  },
+  {
+    "name": "device0003",
+    "stamp": "1619241599052",
+    "value": 45
+  },
+  {
+    "name": "device0003",
+    "stamp": "1619241605066",
+    "value": 13
+  },
+  {
+    "name": "device0003",
+    "stamp": "1619241606082",
+    "value": 87
+  },
+  {
+    "name": "device0003",
+    "stamp": "1619241613093",
+    "value": 55
+  }
+]

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.server.mapper.UserMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.server.model.User">
+        <result column="id" javaType="int" property="id" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+        <result column="password" jdbcType="VARCHAR" property="password" />
+        <result column="email" jdbcType="VARCHAR" property="email" />
+        <result column="phone" jdbcType="VARCHAR" property="phone" />
+    </resultMap>
+
+    <select id="getUserInfo" resultType="com.example.server.model.User">
+        select *
+        from `User`
+        where `name` = #{id};
+    </select>
+
+    <select id="getAll"  resultType="com.example.server.model.User">
+        select * from `User`;
+    </select>
+
+    <insert id="registerUser" parameterType="map">
+        insert into `User`
+        values(null, '${form.name}', '${form.password}', '${form.email}', '${form.phone}');
+    </insert>
+
+    <update id="changePassword" parameterType="map">
+        update `User`
+        set password = '${form.password}'
+        where name = '${form.name}';
+    </update>
+
+    <update id="changeEmail" parameterType="map">
+        update `User`
+        set email = '${form.email}'
+        where name = '${form.name}';
+    </update>
+
+    <update id="changePhone" parameterType="map">
+        update `User`
+        set phone = '${form.phone}'
+        where name = '${form.name}';
+    </update>
+
+    <select id="loginCheck" parameterType="map" resultType="com.example.server.model.User">
+        select *
+        from `User`
+        where `name` = '${form.username}' and `password` = '${form.password}';
+    </select>
+
+    <select id="checkEmail" resultType="com.example.server.model.User">
+        select *
+        from `user`
+        where `email` = #{email};
+    </select>
+
+</mapper>

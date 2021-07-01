@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.server.mapper.MessageMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.server.model.Message">
+        <result column="device" jdbcType="VARCHAR" property="device" />
+        <result column="alert" jdbcType="INTEGER" property="alert" />
+        <result column="info" jdbcType="VARCHAR" property="info" />
+        <result column="lat" jdbcType="NUMERIC" property="lat" />
+        <result column="lng" jdbcType="NUMERIC" property="lng" />
+        <result column="stamp" jdbcType="VARCHAR" property="stamp" />
+        <result column="value" jdbcType="INTEGER" property="value" />
+    </resultMap>
+    <!--查询用户信息-->
+    <select id="getMessages" resultType="com.example.server.model.Message">
+        select * from `message` where `device` = #{name};
+    </select>
+
+    <select id="getAllMessageCount" resultType="map">
+        select  COUNT(all device) as result
+        from `message` where `device` = #{name};
+    </select>
+
+    <select id="getDeviceValue" resultType="map">
+        select `stamp`, `value`
+        from `message`
+        where `device` = #{name};
+    </select>
+
+    <select id="getDeviceInfo" resultType="map">
+        select `stamp`, `info`
+        from `message`
+        where `device` = #{name};
+    </select>
+
+    <select id="getDevicePosition" resultType="map">
+        select `lng`, `lat`, `alert`
+        from `message`
+        where `device` = #{name};
+    </select>
+</mapper>
